@@ -55,7 +55,7 @@
 }
 
 /* Стили секций/карточек */
-.main__content {
+.class__main-content {
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -86,12 +86,12 @@
   border: var(--border-width) solid var(--color-border);
 }
 
-.card__img-wrapper {
+.card__image-wrapper {
   position: relative;
   overflow: hidden;
 }
 
-.card__img-label {
+.card__image-lab {
   position: absolute;
   z-index: 2;
   opacity: 0.6;
@@ -112,7 +112,7 @@
   (-webkit-text-stroke: 1px var(--color-label-stroke)) or
   (text-stroke: 1px var(--color-label-stroke))
 ) {
-  .card__img-label {
+  .card__image-lab {
     text-shadow: none;
     -webkit-text-stroke: 1px var(--color-label-stroke);
     text-stroke: 1px var(--color-label-stroke);
